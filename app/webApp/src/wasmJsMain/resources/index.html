@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Pokedex KMP</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #F4EBF4;
+    }
+    @media (prefers-color-scheme: dark) {
+      html, body { background-color: #2B292B; }
+    }
+    #splash {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: #D53A47;
+    }
+  </style>
+</head>
+<body>
+  <div id="splash">Pokedex KMP</div>
+  <script type="application/javascript">
+    // The Ktor client reads `process.env` when it initialises; the browser has no such global.
+    window.process = { env: {}, release: {} };
+  </script>
+  <script type="application/javascript" src="pokedex-kmp.js"></script>
+</body>
+</html>
