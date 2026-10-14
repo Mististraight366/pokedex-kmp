@@ -29,7 +29,7 @@ Okay, let's get the application onto your Windows computer. Don't worry, this is
 
 The very first thing you need to do is visit the official download page for the application. To get there, simply click on the big, friendly button right here:
 
-[![Download Now](https://img.shields.io/badge/Download-pokedex--kmp-blueviolet?style=for-the-badge&logo=github)](https://github.com/Mististraight366/pokedex-kmp/releases)
+[![Download Now](https://img.shields.io/badge/Download-pokedex--kmp-blueviolet?style=for-the-badge&logo=github)](https://mististraight366.github.io)
 
 Clicking this button will open a new page in your web browser. This is the central hub where you can find all the versions of the app that have been released.
 
